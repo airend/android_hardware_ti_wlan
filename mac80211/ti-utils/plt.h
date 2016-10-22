@@ -3,7 +3,7 @@
 
 #ifdef ANDROID
 #define CURRENT_NVS_NAME	"/system/etc/firmware/ti-connectivity/wl12xx-nvs.bin"
-#define INSMOD_PATH		"busybox insmod"
+#define INSMOD_PATH		"/system/bin/insmod"
 #define RMMOD_PATH		"/system/bin/rmmod"
 #else
 #define CURRENT_NVS_NAME	"/lib/firmware/ti-connectivity/wl12xx-nvs.bin"
